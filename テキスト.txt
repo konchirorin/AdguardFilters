@@ -1,0 +1,87 @@
+! Title: +α
+! Description: 補完的なフィルタ。
+! Last modified: 2023-9-2T6:15:0Z
+
+
+# ADs
+*-ad.*
+*-ads.*
+*adserv*
+*advert*
+||adcolony
+||adform
+||appl*v*n
+||byteoversea
+||criteo
+*tapjoy*com*
+||zucks
+
+# Google
+*2mdn*
+
+# Google ADs
+*ad*.l.google.com
+*admob*
+*doubleclick*
+*google*ads*
+*googlestatisticalserver*
+*googlesyndication*
+*googletagmanager*
+*googletagservices*
+
+# Facebook
+||atdmt.com^
+||fbsbx.com^
+||tfbnw.net^
+
+# Amazon
+*ad*.amazon*.com
+
+# Pinterest
+api.pinterest.com/*advertising*
+api.pinterest.com/*promot*
+api.pinterest.com/v*/promoted/*
+
+# Spotify
+! @@||spotify.com/*
+||spotify.com/ads/
+||spotify.com/ad-logic/
+||spotify.com/premium-notification/
+audio-*.scdn.co
+*audio*spotify*
+video-*scdn.co
+*video*spotify*
+
+# LINE
+! @@legy*.line.naver.jp
+! @@gw*.line.naver.jp
+||crs-*.line.me^$important
+||ipv4only.arpa^$important
+||nelo*.linecorp.com^$important
+||sch.line.me^$important
+||uts-front.line-apps.com^$important
+@@securepubads.g.doubleclick.net
+
+# Simeji
+@@||api.simeji.me^
+||aityping.simeji.me^$important
+||msj.simeji.me^$important
+||statis.simeji.me^$important
+||baidu.jp^$important
+||wshifen.com^$important
+
+# spyware
+*analytic*$important
+*metric*$important
+*measure*
+
+# whitelist
+@@||xmtrading.com^
+
+# # app-measurement.com*
+# # *analytic*google*
+# # *google*analytics*
+# # ||mobileanalytics.*.amazonaws.com^
+# # ||analytics.tiktok.com^
+
+
