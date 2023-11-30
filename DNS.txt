@@ -1,9 +1,9 @@
 ! Title: +α
 ! Description: 補完的なフィルタ。
-! Last modified: 2023-10-23T15:26:0Z
+! Last modified: 2023-11-30T10:2:0Z
 
 
-# ADs
+# Ads
 *-ad.*
 *-ads.*
 *adserv*
@@ -17,10 +17,7 @@
 *tapjoy*com*
 ||zucks
 
-# Google
-*2mdn*
-
-# Google ADs
+# Google Ads
 *ad*.l.google.com
 *admob*
 *doubleclick*
@@ -30,61 +27,49 @@
 *googletagmanager*
 *googletagservices*
 
-# Facebook
-||atdmt.com^
-||fbsbx.com^
-||tfbnw.net^
-
-# Amazon
+# Amazon Ads
 *ad*.amazon*.com
 
-# Pinterest
-api.pinterest.com/*advertising*
-api.pinterest.com/*promot*
-api.pinterest.com/v*/promoted/*
+# Pinterest Ads
+||pinterest.com/*advertising*
+||pinterest.com/*promot*
 
-# Spotify
-! @@||spotify.com/*
+# Spotify Ads
+! @@||spotify.com/*^$important
 ||spotify.com/ads/
 ||spotify.com/ad-logic/
 ||spotify.com/premium-notification/
 @@audio-fa.scdn.co
-@@audio4*spotify*
 audio-*.scdn.co
-*audio*spotify*
 video-*scdn.co
+@@audio4*spotify*
+*audio*spotify*
 *video*spotify*
 
 # LINE
 ! @@legy*.line.naver.jp
 ! @@gw*.line.naver.jp
-||crs-*.line.me^$important
-||ipv4only.arpa^$important
-||nelo*.linecorp.com^$important
-||sch.line.me^$important
-||uts-front.line-apps.com^$important
+||crs-*.line.me^
+||ipv4only.arpa^
+||nelo*.linecorp.com^
+||sch.line.me^
+||uts-front.line-apps.com^
 @@securepubads.g.doubleclick.net
 
 # Simeji
 @@||api.simeji.me^
-||aityping.simeji.me^$important
-||msj.simeji.me^$important
-||statis.simeji.me^$important
+||aityping.simeji.me^
+||msj.simeji.me^
+||statis.simeji.me^
 ||baidu.jp^$important
 ||wshifen.com^$important
 
 # spyware
 *analytic*$important
 *metric*$important
-*measure*
+*measure*$important
 
 # whitelist
 @@||xmtrading.com^
-
-# # app-measurement.com*
-# # *analytic*google*
-# # *google*analytics*
-# # ||mobileanalytics.*.amazonaws.com^
-# # ||analytics.tiktok.com^
 
 
