@@ -1,5 +1,4 @@
-! Title:  Block an element
-! Description: editing...
+! Title:  Editing
 
 bing.com###bnp\.nid\.62769
 deepl.com###cookieBanner
