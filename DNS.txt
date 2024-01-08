@@ -1,6 +1,6 @@
 ! Title: +α
 ! Description: 補完的なフィルタ。
-! Last modified: 2023-11-30T10:5:0Z
+! Last modified: 2024-1-8T7:8:0Z
 
 
 
@@ -40,10 +40,10 @@
 ||spotify.com/ads/
 ||spotify.com/ad-logic/
 ||spotify.com/premium-notification/
-@@audio-fa.scdn.co
-audio-*.scdn.co
-video-*scdn.co
-@@audio4*spotify*
+@@audio-fa.scdn.co$important
+||audio-*.scdn.co^
+||video-*.scdn.co^
+@@audio4*spotify*$important
 *audio*spotify*
 *video*spotify*
 
