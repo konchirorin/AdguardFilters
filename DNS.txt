@@ -1,6 +1,6 @@
 ! Title: +α
 ! Description: 補完的なフィルタ。
-! Last modified: 2024-1-8T7:8:0Z
+! Last modified: 2024-2-8T5:52:0Z
 
 
 
@@ -28,12 +28,9 @@
 *googletagmanager*
 *googletagservices*
 
-# Amazon Ads
-*ad*.amazon*.com
-
 # Pinterest Ads
-||pinterest.com/*advertising*
-||pinterest.com/*promot*
+||api.pinterest.com/v3/feeds/home?advertising_id=*
+||api.pinterest.com/v3/feeds/home?*advertising_id=*
 
 # Spotify Ads
 ! @@||spotify.com/*^$important
@@ -67,8 +64,8 @@
 
 # spyware
 *analytic*$important
-*metric*$important
 *measure*$important
+*metric*$important
 
 # whitelist
 @@||xmtrading.com^
