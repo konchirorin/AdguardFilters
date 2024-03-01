@@ -1,6 +1,6 @@
 ! Title: +α
 ! Description: 補完的なフィルタ。
-! Last modified: 2024-2-8T5:52:0Z
+! Last modified: 2024-3-1T16:23:0Z
 
 
 
@@ -13,7 +13,6 @@
 ||adform
 ||applovin
 ||applvn
-||byteoversea
 ||criteo
 *tapjoy*com*
 ||zucks
@@ -29,7 +28,6 @@
 *googletagservices*
 
 # Pinterest Ads
-||api.pinterest.com/v3/feeds/home?advertising_id=*
 ||api.pinterest.com/v3/feeds/home?*advertising_id=*
 
 # Spotify Ads
@@ -50,6 +48,8 @@
 ||crs-*.line.me^
 ||ipv4only.arpa^
 ||nelo*.linecorp.com^
+*promotion*line*
+*tracking*line*
 ||sch.line.me^
 ||uts-front.line-apps.com^
 @@securepubads.g.doubleclick.net
@@ -61,6 +61,10 @@
 ||statis.simeji.me^
 ||baidu.jp^$important
 ||wshifen.com^$important
+
+# TikTok
+||byte*oversea$important
+*log*tiktok*$important
 
 # spyware
 *analytic*$important
